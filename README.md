@@ -214,7 +214,7 @@ sales-analytics-powerbi/
    git clone https://github.com/maka971/End-to-end-sales-data-project-
    ```
 
-2. **Open the `[.pbix](https://github.com/maka971/End-to-end-sales-data-project-/blob/main/Episode%204%20-%20Sales%20Report_Finished.pbix)` file** in Power BI Desktop
+2. **https://github.com/maka971/End-to-end-sales-data-project-/blob/main/Episode%204%20-%20Sales%20Report_Finished.pbix** in Power BI Desktop
 
 3. **Connect your data source** via Power Query (update connection strings as needed)
 
