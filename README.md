@@ -1,4 +1,4 @@
-# 📊 End-to-End Sales Analytics | Power BI
+# 📊 End-to-End Sales Analytics | Power BI | SQL
 
 > Transforming raw sales data into actionable business intelligence through an interactive Power BI dashboard.
 
