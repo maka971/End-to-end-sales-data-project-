@@ -1,4 +1,4 @@
-# 📊 End-to-End Sales Analytics | Power BI | SQL
+# 📊 End-to-End Sales Analytics | Power BI
 
 > Transforming raw sales data into actionable business intelligence through an interactive Power BI dashboard.
 
@@ -7,6 +7,55 @@
 ## 🧭 Overview
 
 This project demonstrates a complete end-to-end Sales Analytics solution built using **Power BI**, **SQL**, **Excel**, and advanced data modeling techniques. The goal was to give stakeholders a centralized, real-time view of sales performance — eliminating manual reporting and enabling faster, data-driven decisions.
+
+---
+
+## 📧 Business Request
+
+> The following email from the Sales Manager initiated this project:
+
+---
+
+**From:** Steven – Sales Manager  
+**To:** Ali
+
+Hi Ali!
+
+I hope you are doing well. We need to improve our internet sales reports and want to move from static reports to visual dashboards.
+
+Essentially, we want to focus it on how much we have sold of what products, to which clients and how it has been over time.
+
+Seeing as each sales person works on different products and customers it would be beneficial to be able to filter them also.
+
+We measure our numbers against budget so I added that in a spreadsheet so we can compare our values against performance.
+
+The budget is for 2021 and we usually look 2 years back in time when we do analysis of sales.
+
+Let me know if you need anything else!
+
+*// Steven*
+
+---
+
+## 📋 Business Demand Overview
+
+| Field | Details |
+|-------|---------|
+| **Reporter** | Steven – Sales Manager |
+| **Value of Change** | Visual dashboards and improved sales reporting for the sales force |
+| **Necessary Systems** | Power BI, CRM System |
+| **Other Relevant Info** | Budgets have been delivered in Excel for 2021 |
+
+---
+
+## 🧑‍💼 User Stories
+
+| No # | As a (role) | I want (request / demand) | So that I (user value) | Acceptance Criteria |
+|------|-------------|--------------------------|------------------------|---------------------|
+| 1 | Sales Manager | A dashboard overview of internet sales | I can follow which customers and products sell the best | A Power BI dashboard which updates data once a day |
+| 2 | Sales Representative | A detailed overview of internet sales per customer | I can follow up customers that buy the most and identify upsell opportunities | A Power BI dashboard which allows filtering by each customer |
+| 3 | Sales Representative | A detailed overview of internet sales per product | I can follow up the products that sell the most | A Power BI dashboard which allows filtering by each product |
+| 4 | Sales Manager | A dashboard overview of internet sales | I can follow sales over time against budget | A Power BI dashboard with graphs and KPIs comparing actuals vs. budget |
 
 ---
 
@@ -134,3 +183,52 @@ Several high-revenue products delivered low profit margins, pointing to pricing 
 | Limited visibility into trends | Full trend analysis and forecasting |
 
 ---
+
+## 📁 Project Structure
+
+```
+sales-analytics-powerbi/
+│
+├── 📂 data/
+│   ├── raw/               # Original source data
+│   └── processed/         # Cleaned and transformed data
+│
+├── 📂 dashboard/
+│   └── SalesAnalytics.pbix  # Main Power BI file
+│
+├── 📂 sql/
+│   └── queries.sql          # SQL scripts used for data extraction
+│
+├── 📂 docs/
+│   └── data_dictionary.md   # Column definitions and schema overview
+│
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/maka971/End-to-end-sales-data-project-
+   ```
+
+2. **Open the `.pbix` file** in Power BI Desktop
+
+3. **Connect your data source** via Power Query (update connection strings as needed)
+
+4. **Refresh the data** and explore the dashboard
+
+---
+
+## 📬 Contact
+
+Feel free to connect or reach out for collaboration opportunities:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mutyaba-sulah-525510203/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maka971)
+
+---
+
+*Built as part of a data analytics portfolio. Open to feedback and collaboration.*
